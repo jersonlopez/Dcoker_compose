@@ -1,0 +1,12 @@
+version: '3'
+services:
+  react:
+    image: jersonlopez/frontjj
+    ports:
+      - "3000:3000"
+
+  node:
+    image: jersonlopez/backjj
+    ports:
+      - "5000:5000"
+
